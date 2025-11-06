@@ -6,7 +6,7 @@ Este diretório contém minutas e rascunhos em discussão referentes à Governan
 1. Leia a minuta disponível no arquivo correspondente.
 2. Registre sua sugestão na aba **Issues**, indicando:
    - Artigo / trecho a ser alterado
-   - Sugestão de Nova redação
+   - Sugestão de Nova Redação
    - Justificativa
 3. A consolidação final será registrada no **SEI** para formalização administrativa.
 
