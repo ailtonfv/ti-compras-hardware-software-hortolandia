@@ -3,6 +3,19 @@
 
 Este repositório reúne **normativos, modelos, fluxos e instrumentos técnicos** utilizados para orientar a aquisição, implantação, integração e gestão de soluções de Tecnologia da Informação no âmbito da administração pública municipal.
 
+## 📬 Como contribuir com melhorias
+
+Se você deseja sugerir ajustes, correções ou novas redações nas normas, modelos ou fluxos aqui publicados:
+
+➡️ Acesse o guia de colaboração no link abaixo:  
+**https://github.com/ailtonfv/governanca-de-dados-municipal/tree/main/colaboracao**
+
+Lá você encontrará:
+- Regras de participação
+- Como registrar sugestões
+- Como propor nova redação
+- Como acompanhar a consolidação no SEI
+
 O objetivo central é assegurar que **cada contratação pública de TI**:
 - **Preserve a soberania dos dados públicos**
 - **Evite dependência tecnológica (vendor lock-in)**
