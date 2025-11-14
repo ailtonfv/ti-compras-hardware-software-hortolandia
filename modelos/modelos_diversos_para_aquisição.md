@@ -243,8 +243,6 @@ SSD: 512 GB
 Tela: 15.6’’ Full HD
 Garantia: 36 meses
 
-shell
-Copiar código
 
 ## 10.2 Modelo de Antivírus (EDR)
 Console centralizado
@@ -253,8 +251,7 @@ Resposta automatizada
 LGPD e ISO 27001
 Cobertura mínima: 200 endpoints
 
-shell
-Copiar código
+
 
 ## 10.3 Formulário Oficial
 Requerimento de Aquisição
@@ -263,8 +260,7 @@ Justificativa
 Sistemas Afetados
 Urgência e Impacto
 
-shell
-Copiar código
+
 
 ## 10.4 Parecer Técnico
 Compatibilidade
@@ -272,8 +268,7 @@ Justificativa Técnica
 Impacto na Infraestrutura
 Conclusão (Aprovado / Ajustes / Não Aprovado)
 
-yaml
-Copiar código
+
 
 ---
 
@@ -332,8 +327,6 @@ Copiar código
 /aquisições/pareceres/
 /aquisições/bibliografia/
 
-yaml
-Copiar código
 
 ---
 
@@ -439,8 +432,7 @@ WAN – Wide Area Network
 XML – Extensible Markup Language
 YAML – YAML Ain't Markup Language
 
-yaml
-Copiar código
+
 
 ---
 
