@@ -180,7 +180,7 @@ Copiar código
 ´´´
 | Diretório / Arquivo | Descrição | Link |
 |----------------------|-----------|------|
-| `/` | Raiz do repositório | [Abrir](../) |
+| `/` | Raiz do repositório github | [Abrir](../) |
 | `/aquisições/` | Diretório principal deste tema | [Abrir](./) |
 | `/aquisições/README.md` | Documento oficial com as diretrizes | [Abrir](./README.md) |
 | `/aquisições/modelos/` | Modelos técnicos prontos | [Abrir](./modelos/) |
