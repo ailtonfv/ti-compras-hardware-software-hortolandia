@@ -331,7 +331,7 @@ Conclusão (Aprovado / Ajustes / Não Aprovado)
 ---
 
 # 15. Siglas (aproximadamente 100 itens)
-## 15. Siglas (aproximadamente 100 itens)
+
 
 ABNT – Associação Brasileira de Normas Técnicas  
 ---
