@@ -1,132 +1,209 @@
-# Diretrizes para Aquisições para a TI no âmbito da Prefeitura de Hortolândia  
-**Diretrizes para aquisição de sistemas, serviços digitais e infraestrutura de TI**
+📑 Sumário
 
-Este repositório reúne **normativos, modelos, fluxos e instrumentos técnicos** utilizados para orientar a aquisição, implantação, integração e gestão de soluções de Tecnologia da Informação no âmbito da administração pública municipal.
+1. Introdução
 
-## 📬 Como contribuir com melhorias
+2. Objetivos
 
-Se você deseja sugerir ajustes, correções ou novas redações nas normas, modelos ou fluxos aqui publicados:
+3. Princípios Gerais
 
-➡️ Acesse o guia de colaboração no link abaixo:  
-**https://github.com/ailtonfv/governanca-de-dados-municipal/tree/main/colaboracao**
+4. Escopo das Aquisições
 
-Lá você encontrará:
-- Diretrizes para participar
-- Como registrar sugestões
-- Como propor nova redação
-- Como acompanhar a consolidação no SEI
+5. Fluxo Padronizado de Solicitação
 
-O objetivo central é assegurar que **cada contratação pública de TI**:
-- **Preserve a soberania dos dados públicos**
-- **Evite dependência tecnológica (vendor lock-in)**
-- **Garanta segurança e proteção de dados sensíveis**
-- **Promova interoperabilidade entre secretarias**
-- **Sustente políticas públicas baseadas em evidências**
+6. Checklist Técnico – Hardware
 
----
+7. Checklist Técnico – Software
 
-## 🎯 Contexto Estratégico
-A transformação digital no setor público não é apenas um tema tecnológico.  
-Ela está diretamente relacionada à **capacidade do Estado de formular políticas**, acompanhar resultados e atuar sobre o território.
+8. Modelos de Especificações Técnicas
 
-Nesta perspectiva, **dados públicos são ativos estratégicos**.
+9. Critérios Técnicos de Avaliação
 
-No município de Hortolândia, a abordagem **Pessoa – Família – Território (RAJIS)** orienta a construção das matrizes de decisão para políticas sociais, urbanas e econômicas.  
-A Governança de Dados é o pilar que sustenta essa visão.
+10. Riscos e Mitigações
 
----
+11. Responsabilidades
 
-## 📘 Documento Central
-**Instrução Normativa – Diretrizes para Aquisição de TI**
+12. Estrutura de Diretórios no GitHub
 
-Define:
-- Critérios mínimos para contratação de software e hardware
-- Requisitos de arquitetura, segurança e integração
-- Procedimentos de consulta técnica entre secretarias e TI
-- Condições de guarda e transferência de bases de dados
-- Políticas de encerramento contratual e continuidade operacional
+13. Referências Bibliográficas
 
-> A minuta está em fase de consulta técnica interna.
+1. Introdução
 
----
+A aquisição de hardware e software no âmbito da Administração Pública Municipal exige critérios rigorosos de governança, padronização, rastreabilidade e segurança da informação, em conformidade com a Lei nº 14.133/2021 e com as melhores práticas internacionais (COBIT, ITIL e ISO/IEC 27001).
 
-## 💬 Contribuições Técnicas  
-As contribuições devem ser feitas na seguinte discussão pública:
+Este documento estabelece diretrizes oficiais para orientar todas as Secretarias da Prefeitura de Hortolândia na abertura, justificativa, análise e homologação de demandas de TI.
 
-👉 https://github.com/ailtonfv/governanca-de-dados-municipal/issues/1
+2. Objetivos
 
-*Observação:*  
-O **registro formal** continuará sendo realizado no **SEI** durante o trâmite administrativo.  
-O GitHub funciona como **ferramenta de colaboração, transparência e memória técnica**.
+Assegurar padronização e conformidade legal.
 
----
-## 🗂️ Modelos para Aquisição de Sistemas e Equipamentos
+Aumentar a eficiência orçamentária e técnica.
 
-A pasta **/modelos** contém documentos de referência para apoiar a abertura de processos administrativos relacionados à contratação de soluções de Tecnologia da Informação.
+Garantir que aquisições estejam alinhadas ao PDTI e ao parque tecnológico vigente.
 
-### 📄 Modelo disponível
+Reforçar o papel do DITI como órgão de governança tecnológica.
 
-| Arquivo | Finalidade | Última atualização |
-|--------|------------|-------------------|
-| `template_compra_software_hardware_TI.docx` | Requisição formal e justificativa técnica para compra de softwares, licenças, hardware, periféricos e serviços de TI | 2025 |
+Reduzir compras redundantes, obsoletas ou inseguras.
 
-### 📝 Orientações de uso
+3. Princípios Gerais
 
-1. Baixe o arquivo `.docx`.
-2. Preencha:
-   - Unidade solicitante
-   - Descrição do objeto (o que está sendo adquirido)
-   - Justificativa técnica
-   - Benefícios esperados e impactos
-   - Critérios de pesquisa de preços
-3. Anexe o documento ao processo no **SEI** (ou sistema equivalente).
-4. Encaminhe para:
-   - Chefia imediata
-   - Unidade de Tecnologia da Informação
-   - Setor de Compras / Licitações (conforme o caso)
+Adequação técnica e compatibilidade.
 
-### 🏛️ Princípios a observar
+Segurança da Informação, proteção de dados e conformidade com LGPD.
 
-- Necessidade pública devidamente justificada
-- Preferência por software livre quando tecnicamente viável
-- Aderência à **LGPD** (Lei 13.709/2018)
-- Compatibilidade com a infraestrutura municipal
-- Sustentabilidade financeira da contratação
+Ciclo de vida tecnológico e análise de TCO.
 
----
-## Como Contribuir
-1. Faça um fork.
-2. Crie uma branch com o nome da proposta (ex: `melhoria-requisito-segurança`).
-3. Submeta um Pull Request descrevendo:
-   - Objetivo da alteração
-   - Fundamentação técnica
-   - Impactos esperados
+Eficiência e economicidade.
 
----
-## Licença
-Este repositório é público e regido por licenças abertas, permitindo reprodução,
-adaptação e reuso com citação da fonte.
+Rastreabilidade documental e técnica.
 
----
+Sustentabilidade e descarte adequado.
 
-## 🗂 Estrutura deste Repositório
-docs/ Documentos oficiais e anexos
-modelos/ Modelos de termos, checklists e formulários
-diagramas/ Diagramas de arquitetura e fluxos de governança
-historico/ Versões e deliberações evolutivas
+4. Escopo das Aquisições
+Categoria	Exemplos
+Hardware	desktops, notebooks, servidores, switches, impressoras, tablets
+Software	sistemas operacionais, produtividade, antivírus, sistemas corporativos
+Serviços	suporte, instalação, migração, garantia estendida
+Infraestrutura	nobreaks, monitores, componentes de rede
+5. Fluxo Padronizado de Solicitação
 
+Abertura da demanda pela Secretaria
 
----
+Preenchimento do formulário padrão.
 
-## 📌 Responsabilidade Institucional
-Secretaria Municipal de Planejamento Urbano e Gestão Estratégica  
-Departamento de Sistemas em Tecnologia da Informação  
-Departamento de Infraestrutura da Tecnologia da Informação  
+Justificativa funcional e impacto.
 
----
+Análise técnica do DITI
 
-## 🤝 Chamado à Colaboração
-Este é um processo **construído com as secretarias**.  
-Cada área é responsável por avaliar suas necessidades **em diálogo estruturado com TI**.
+Estudo de compatibilidade e segurança.
 
-Contribuir é fazer parte da construção de um **Estado mais eficiente, inteligente e justo**.
+Parecer Técnico
+
+Aprovado, ajustado ou negado.
+
+Indicação de itens homologados.
+
+Envio à CPL / Compras
+
+Adequação à Lei 14.133/2021.
+
+Entrega e Homologação
+
+Testes e registros.
+
+6. Checklist Técnico – Hardware
+
+Compatibilidade total com sistemas municipais
+
+Especificações alinhadas ao catálogo padrão
+
+Garantia mínima de 12 meses (preferencial 36 meses)
+
+Disponibilidade de peças e suporte
+
+Certificações e eficiência energética
+
+Viabilidade de expansão futura
+
+7. Checklist Técnico – Software
+
+Licenciamento regular
+
+Logs de auditoria
+
+Integridade e segurança (EDR, criptografia, MFA)
+
+Compatibilidade operacional
+
+Aderência à LGPD
+
+Manual técnico e SLA do fornecedor
+
+8. Modelos de Especificações Técnicas
+8.1 Notebook padrão administrativo
+**Equipamento:** Notebook corporativo  
+**CPU:** Intel i5+ ou Ryzen 5+  
+**RAM:** 16 GB DDR4  
+**SSD:** 512 GB NVMe  
+**Tela:** 15.6" FHD  
+**SO:** Windows 11 Pro ou Debian  
+**Garantia:** 36 meses  
+
+8.2 Antivírus corporativo
+**Tipo:** Antivírus com EDR  
+**Endpoints:** 200+  
+**Console:** Centralizado  
+**Relatórios:** Logs exportáveis  
+**LGPD:** Conformidade obrigatória  
+**SLA:** 99,5%  
+
+9. Critérios Técnicos de Avaliação
+
+Métricas de desempenho
+
+Maturidade do fornecedor
+
+SLA e roadmap de evolução
+
+Aderência à segurança da informação
+
+Integração com data center municipal
+
+10. Riscos e Mitigações
+Risco	Mitigação
+Obsolescência	Catálogo homologado do DITI
+Incompatibilidade	Análise prévia obrigatória
+Falhas de segurança	Checklist LGPD e ISO 27001
+Subdimensionamento	Plano de Capacidade DITI
+11. Responsabilidades
+Secretarias Demandantes
+
+Preencher formulário oficial.
+
+Justificar a necessidade.
+
+Apontar impacto no serviço público.
+
+DITI
+
+Emitir parecer técnico.
+
+Homologar especificações e entregas.
+
+Manter catálogo oficial atualizado.
+
+Compras / CPL
+
+Conduzir licitação.
+
+Garantir conformidade legal.
+
+12. Estrutura de Diretórios no GitHub
+
+A tabela abaixo segue o padrão aceito pelo GitHub (code fence), com links internos para facilitar navegação entre os documentos:
+
+| Diretório / Arquivo | Descrição | Link |
+|----------------------|-----------|------|
+| `/` | Raiz do repositório | [Abrir](./) |
+| `/aquisições/` | Diretório principal do tema | [Abrir](./aquisições/) |
+| `/aquisições/README.md` | Este documento | [Abrir](./aquisições/README.md) |
+| `/modelos/` | Modelos editáveis de hardware e software | [Abrir](./modelos/) |
+| `/modelos/notebook.md` | Especificação técnica padrão de notebook | [Abrir](./modelos/notebook.md) |
+| `/modelos/antivirus.md` | Especificação técnica antivírus corporativo | [Abrir](./modelos/antivirus.md) |
+| `/formulários/` | Formulários oficiais da Secretaria | [Abrir](./formulários/) |
+| `/formulários/requerimento_aquisicao.md` | Formulário de abertura de demanda | [Abrir](./formulários/requerimento_aquisicao.md) |
+| `/pareceres/` | Registro de pareceres técnicos do DITI | [Abrir](./pareceres/) |
+| `/bibliografia/` | Referências e normas utilizadas | [Abrir](./bibliografia/) |
+
+13. Referências Bibliográficas
+
+BRASIL. Lei nº 14.133/2021 — Nova Lei de Licitações.
+
+ISACA. COBIT 2019 Framework.
+
+ISO/IEC. ISO 27001:2022 – Segurança da Informação.
+
+OGC. ITIL Service Management.
+
+Ministério da Economia. Guias de Contratações de TIC.
+
+Gartner. Magic Quadrant for Endpoint Protection Platforms.
