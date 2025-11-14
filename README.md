@@ -1,4 +1,4 @@
-# Governança de Dados Municipal  
+# Diretrizes para Aquisições para a TI no âmbito da Prefeitura de Hortolândia  
 **Diretrizes para aquisição de sistemas, serviços digitais e infraestrutura de TI**
 
 Este repositório reúne **normativos, modelos, fluxos e instrumentos técnicos** utilizados para orientar a aquisição, implantação, integração e gestão de soluções de Tecnologia da Informação no âmbito da administração pública municipal.
