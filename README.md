@@ -118,3 +118,79 @@ Copiar código
 **Relatórios:** Logs exportáveis  
 **Conformidade:** LGPD obrigatória  
 **SLA:** 99,5%
+
+## 9. Critérios Técnicos de Avaliação
+
+- Métricas de desempenho relevantes (benchmarks, capacidade de processamento, latência, IOPS).  
+- Maturidade do fornecedor (certificações, histórico de estabilidade, presença em Quadrantes do Gartner).  
+- SLA formal de atendimento, suporte e atualização.  
+- Roadmap de evolução tecnológica disponibilizado pelo fornecedor.  
+- Aderência às políticas de segurança da informação (ISO/IEC 27001, NIST, boas práticas de hardening).  
+- Integração total com o data center municipal e sistemas já existentes.  
+- Garantia de interoperabilidade com sistemas críticos (Educação, Saúde, Inclusão Social, Planejamento etc.).
+
+---
+
+## 10. Riscos e Mitigações
+
+| Risco | Consequência | Mitigação |
+|-------|--------------|-----------|
+| Obsolescência técnica | Perda de desempenho e aumento de custo | Utilizar catálogo homologado do DITI |
+| Incompatibilidade com sistemas | Interrupções e retrabalho | Parecer técnico obrigatório antes da compra |
+| Falhas de segurança | Vazamento de dados, indisponibilidade | Checklist LGPD, ISO 27001 e hardening |
+| Subdimensionamento | Lentidão, sobrecarga, gargalos | Plano de Capacidade do DITI |
+| Licenciamento inadequado | Irregularidade legal | Validação prévia do DITI e Jurídico |
+| Falta de documentação | Impossibilidade de auditoria | Registro documental padronizado |
+
+---
+
+## 11. Responsabilidades
+
+### Secretarias Demandantes
+- Preencher corretamente o formulário oficial de solicitação.  
+- Justificar a necessidade do item e o impacto na política pública.  
+- Indicar urgência, prazo e contexto operacional.  
+- Encaminhar informações complementares quando solicitadas pelo DITI.
+
+### DITI – Departamento de Infraestrutura de TI
+- Realizar análise técnica completa de cada demanda.  
+- Emitir parecer técnico formal (aprovado, ajustado ou negado).  
+- Homologar especificações técnicas e validar entregas.  
+- Atualizar periodicamente o catálogo de hardware e software.  
+- Assegurar aderência às normas de segurança da informação e LGPD.
+
+### Compras / CPL
+- Conduzir o processo de contratação conforme Lei nº 14.133/2021.  
+- Validar documentos enviados para licitação.  
+- Registrar atas, contratos e termos de referência.  
+- Articular com o DITI eventuais dúvidas técnicas durante o processo.
+
+---
+
+## 12. Estrutura de Diretórios no GitHub
+
+```md
+| Diretório / Arquivo | Descrição | Link |
+|----------------------|-----------|------|
+| `/` | Raiz do repositório | [Abrir](../) |
+| `/aquisições/` | Diretório principal deste tema | [Abrir](./) |
+| `/aquisições/README.md` | Documento oficial com as diretrizes | [Abrir](./README.md) |
+| `/aquisições/modelos/` | Modelos técnicos prontos | [Abrir](./modelos/) |
+| `/aquisições/modelos/notebook.md` | Modelo técnico de notebook | [Abrir](./modelos/notebook.md) |
+| `/aquisições/modelos/antivirus.md` | Modelo técnico de antivírus | [Abrir](./modelos/antivirus.md) |
+| `/aquisições/formularios/` | Formulários padronizados | [Abrir](./formularios/) |
+| `/aquisições/formularios/requerimento_aquisicao.md` | Formulário de abertura de demanda | [Abrir](./formularios/requerimento_aquisicao.md) |
+| `/aquisições/pareceres/` | Pareceres técnicos emitidos pelo DITI | [Abrir](./pareceres/) |
+| `/aquisições/bibliografia/` | Referências e normas utilizadas | [Abrir](./bibliografia/) |
+13. Referências Bibliográficas
+BRASIL. Lei nº 14.133/2021 – Nova Lei de Licitações.
+
+ISACA. COBIT 2019 – Framework de governança de TI.
+
+ISO/IEC. ISO 27001:2022 – Sistema de Gestão de Segurança da Informação.
+
+OFFICE OF GOVERNMENT COMMERCE. ITIL v3 e ITIL 4.
+
+Gartner. Magic Quadrant for Endpoint Protection Platforms.
+
+Gartner. Magic Quadrant for Network Firewalls
