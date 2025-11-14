@@ -185,4 +185,112 @@ Secretarias devem comunicar alterações de uso.
 
 ## 9. Modelos Técnicos e Formulários
 
+## 9. Modelos Técnicos e Formulários
+
 ### 9.1 Modelo de Notebook
+Processador: i5 ou Ryzen 5
+RAM: 16 GB
+SSD: 512 GB
+Tela: 15.6” FHD
+Garantia: 36 meses
+
+shell
+Copiar código
+
+### 9.2 Modelo de Antivírus (EDR)
+Endpoints: 200+
+Console centralizado
+Sandbox e análise comportamental
+LGPD e ISO 27001
+SLA: 99,5%
+
+shell
+Copiar código
+
+### 9.3 Formulário Oficial
+Requerimento de Aquisição
+Descrição da demanda
+Justificativa
+Sistemas afetados
+Urgência
+
+shell
+Copiar código
+
+### 9.4 Parecer Técnico
+Compatibilidade
+Justificativa técnica
+Impacto na infraestrutura
+Conclusão (aprovado / com ajustes / negado)
+
+---
+
+## 10. Critérios Técnicos de Avaliação
+- Benchmarks e desempenho  
+- Maturidade do fornecedor  
+- SLA e suporte  
+- Segurança e hardening  
+- Roadmap de atualizações  
+- Interoperabilidade e integração com data center  
+
+---
+
+## 11. Riscos e Mitigações
+
+| Risco | Mitigação |
+|-------|-----------|
+| Obsolescência | Catálogo homologado |
+| Incompatibilidade | Parecer técnico obrigatório |
+| Vulnerabilidades | LGPD + ISO 27001 |
+| Subdimensionamento | Plano de Capacidade |
+| Licenciamento errado | Validação do DITI |
+
+---
+
+## 12. Responsabilidades
+
+### Secretarias
+- Preencher formulário  
+- Justificar a demanda  
+- Fornecer informações operacionais  
+- Seguir o fluxo definido  
+
+### DITI
+- Emitir parecer técnico  
+- Homologar entregas  
+- Definir catálogo e padrões  
+- Garantir segurança e conformidade  
+
+### CPL
+- Conduzir licitação  
+- Validar documentação  
+- Formalizar contratos  
+
+---
+
+## 13. Estrutura de Diretórios no GitHub
+
+
+/aquisições/
+/aquisições/modelos/
+/aquisições/formularios/
+/aquisições/pareceres/
+/aquisições/bibliografia/
+
+
+---
+
+## 14. Referências Bibliográficas
+- Lei nº 14.133/2021  
+- Lei nº 13.709/2018 (LGPD)  
+- COBIT 2019  
+- ISO/IEC 27001:2022  
+- ITIL v4  
+- Guia de Contratações de TIC – Ministério da Economia  
+
+
+
+
+
+
+
